@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
  /**
   *print alhphabet in lower case followed 
   *by a new line
