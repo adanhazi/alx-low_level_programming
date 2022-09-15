@@ -1,4 +1,4 @@
-#include "main.h"
+#include "mainn.h"
 /**
  * print_number - a function that prints an integer
  * @n: input
