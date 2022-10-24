@@ -1,5 +1,3 @@
-utable File  55 lines (46 sloc)  878 Bytes
-
 #include "lists.h"
 #include <string.h>
 #include <stdlib.h>
