@@ -1,0 +1,22 @@
+#inlude <stio.h>
+#include <stdlib.h>
+#include <sys/time.h>
+#include <assert.h>
+#include "common.h"
+
+int main (int argc, char *argv[])
+{
+	if (argc !=2)
+{	
+	fprintf(stderr, "Usage: cpu <string\n");
+	exit(1);
+}
+
+	char *str = agrv[1];
+	while(1){
+		spin(1);
+		print("%s\n", str);
+		
+		} 
+	return 0;
+}
